@@ -62,6 +62,23 @@
 			<key>name</key>
 			<string>meta.class.instance.constructor</string>
 		</dict>
+
+    <dict>
+			<key>begin</key>
+			<string>""" !ijc</string>
+			<key>end</key>
+			<string>"""</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>source.sass</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>string.quoted.heredoc.coffee</string>
+		</dict>
+
 		<dict>
 			<key>begin</key>
 			<string>'''</string>
